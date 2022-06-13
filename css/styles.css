@@ -13,6 +13,10 @@ a{
     text-decoration: none
 }
 
+p{
+    color: #757575;
+}
+
 /* Site-nav */
 .logo{
         font-family: 'Raleway';
