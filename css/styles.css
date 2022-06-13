@@ -66,9 +66,30 @@ color: var(--accent-color);
     color: var(--primary-background-color);
 }
 
-.hero-button:hover,
-.hero-button:focus{
+/* Buttons */
+
+.button{
+
+}
+
+.button.hero{
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+}
+
+.button.hero:hover,
+.button.hero:focus{
 cursor: pointer;
+}
+
+.button.portfolio{
+    background-color: var(--acccent-background-color);
+}
+
+.button.portfolio:hover,
+.button.portfolio:focus{
+cursor: pointer;
+background-color: var(--accent-color);
 }
 
 /* Our team */
