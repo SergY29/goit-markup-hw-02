@@ -76,6 +76,10 @@ cursor: pointer;
     background-color: var(--acccent-background-color);
 }
 
+.team-apart{
+    background-color: var(--primary-background-color);
+}
+
 /* Footer */
 
 .footer{
