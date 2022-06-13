@@ -15,7 +15,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-ul{
+/* ul{
     list-style: none;
 }
 
@@ -25,20 +25,21 @@ a{
 
 p{
     color: var(--title-text-color);
-}
+} 
 
 /* Site-nav */
-.logo{
+.nav.logo{
         font-family: 'Raleway';
         color: var(--accent-color);
 }
 
-.logo-nav{
+.nav.logo-nav{
 color: var(--primary-text-color);
 }
 
 .site-nav .link{
 color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -46,10 +47,16 @@ color: var(--primary-text-color);
 color: var(--accent-color);
 }
 
+.nav 
+
+.list{
+    list-style: none;
+}
 /* Header contact */
 
 .header-contact .contact{
     color: var(--title-text-color);
+        text-decoration: none;
 }
 
 .header-contact .contact:hover,
