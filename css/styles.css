@@ -113,10 +113,11 @@ background-color: var(--accent-color);
 
 .footer-adress{
     color: var(--primary-background-color);
-    font-style: normal;
 }
 
 .footer-contact{
-        font-style: normal;
         color: var(--alternative-text-color);
+}
+.footer-contact:hover{
+    color: var(--accent-color);
 }
