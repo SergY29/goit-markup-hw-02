@@ -8,6 +8,7 @@
     --accent-color: #2196F3;
     --button-hero-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
     --button-portfolio-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    --button-accent-color:#188CE8;
 }
 
 body{
@@ -84,7 +85,8 @@ color: var(--accent-color);
 
 .button.hero:hover,
 .button.hero:focus{
-cursor: pointer;
+    background-color: var(--button-accent-color);
+    cursor: pointer;
 }
 
 .button.portfolio{
