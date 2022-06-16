@@ -30,7 +30,7 @@ body{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.84;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--accent-color);
@@ -44,7 +44,7 @@ color: var(--primary-text-color);
 .site-nav .link{
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.875;
+    line-height:1.1;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--primary-text-color);
@@ -67,7 +67,7 @@ color: var(--accent-color);
 .header-contact .contact{
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.875;
+    line-height:1.1;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--title-text-color);
@@ -85,7 +85,7 @@ color: var(--accent-color);
 
 .hero-title{
     font-size: 44px;
-    line-height: 0.73x;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -108,7 +108,7 @@ color: var(--accent-color);
     font-family: var(--font-family-primary);
     font-weight: 700;
     font-size: 16px;
-    line-height: 0.53;
+    line-height: 1.875;
     align-items: center;
     text-align: center;
     color: var(--primary-background-color);
