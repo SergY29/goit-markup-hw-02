@@ -18,7 +18,7 @@
 /* Base */
 
 body{
-    font-family: var(--font-family-primary);
+    font-family: var(--font-family-primary), Verdana, Tahoma, arial, sans-serif;
     font-weight: 400;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
@@ -177,6 +177,51 @@ color: var(--accent-color);
     color: var(--title-text-color);
 }
 
+.ident-title.description{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.ident-title.team{
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.ident-title.portfolio{
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+}
+
+.section-title-none{
+    display: none;
+}
+.feachers-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* main portfolio */
+.portfolio-title{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
 /* Our team */
 .section.team{
     background-color: var(--acccent-background-color);
@@ -184,6 +229,14 @@ color: var(--accent-color);
 
 .team-apart{
     background-color: var(--primary-background-color);
+}
+
+.name-team{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -197,10 +250,19 @@ color: var(--accent-color);
 
 .footer-adress{
     color: var(--primary-background-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height:1.7;
+    letter-spacing: 0.03em;
 }
 
 .footer-contact{
-        color: var(--alternative-text-color);
+    color: var(--alternative-text-color);
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 .footer-contact:hover{
     color: var(--accent-color);
