@@ -84,13 +84,14 @@ color: var(--accent-color);
 }
 
 .hero-title{
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-background-color);
-}
+}   
 
 /* Buttons */
 
@@ -100,10 +101,10 @@ color: var(--accent-color);
 }
 
 .button.hero{
-    width: 200px;
+    /* width: 200px;
     height: 50px;
     left: 700px;
-    top: 430px;
+    top: 430px; */
 
     font-family: var(--font-family-primary);
     font-weight: 700;
@@ -134,7 +135,7 @@ color: var(--accent-color);
     cursor: pointer;
     box-shadow: var(--button-portfolio-shadow-active)
 }
-
+/* 
 .button.all{
     width: 73px;
     height: 38px;
@@ -169,7 +170,7 @@ color: var(--accent-color);
     height: 38px;
     left: 976px;
     top: 174px;;
-}
+} */
 
 
 /* Body */
